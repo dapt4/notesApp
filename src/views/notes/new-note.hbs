@@ -1,0 +1,13 @@
+<div class="card p-5">
+<form action="/notes/new-note" method="POST">
+<div class="mb-3">
+  <label for="noteName" class="form-label">Note name</label>
+  <input type="text" class="form-control" value="{{title}}" name="title" id="noteName" placeholder="title">
+</div>
+<div class="mb-3">
+  <label for="textContent" class="form-label">Text content</label>
+  <textarea name="description"  class="form-control" id="textContent" rows="3">{{description}}</textarea>
+</div>
+<button class="btn btn-primary" type="submit"><i class="fas fa-save"></i> Save</button>
+</form>
+</div>

@@ -1,0 +1,23 @@
+<div class="card p-5">
+<form method="post" action="/users/signup" class="row g-3">
+  <div class="col-md-12">
+    <label for="inputName" class="form-label">Name</label>
+    <input type="text" value="{{name}}" name="name" class="form-control" id="inputName">
+  </div>
+  <div class="col-md-12">
+    <label for="inputEmail4" class="form-label">Email</label>
+    <input type="email" name="email" value="{{email}}" class="form-control" id="inputEmail4">
+  </div>
+  <div class="col-md-6">
+    <label for="inputPassword4" class="form-label">Password</label>
+    <input type="password" name="password" value="{{password}}" class="form-control" id="inputPassword4">
+  </div>
+  <div class="col-md-6">
+    <label for="inputPassword5" class="form-label">Repeat Password</label>
+    <input name="confirm_password" type="password" value="{{confirm_password}}" class="form-control" id="inputPassword5">
+  </div>
+  <div class="col-12">
+    <button type="submit" class="btn btn-primary">Sign in</button>
+  </div>
+</form>
+</div>
